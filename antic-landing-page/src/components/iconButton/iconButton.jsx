@@ -1,5 +1,5 @@
 import { MaterialSymbol } from 'react-material-symbols';
-import './IconButton.css'
+import './iconButton.css'
 
 const IconButton = ({ 
   iconName, 
