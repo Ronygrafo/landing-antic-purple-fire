@@ -1,4 +1,5 @@
 import IconButton from "../../components/iconButton/iconButton";
+import MenuBar from "../../features/MenuBar/MenuBar";
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -9,6 +10,7 @@ const LandingPage = () => {
 
   return (
     <>
+    <MenuBar/>
       <IconButton
         iconName="keyboard_arrow_down"
         variant="primary"
