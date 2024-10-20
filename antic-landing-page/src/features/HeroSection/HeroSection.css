@@ -2,7 +2,6 @@
     height: 90vh;
     width: 100vw;
     display: flex;
-    z-index: -1;
 }
 
 .hero-content{
