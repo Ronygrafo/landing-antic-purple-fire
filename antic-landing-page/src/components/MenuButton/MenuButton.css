@@ -1,0 +1,15 @@
+.nav-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 18px;
+    color: var(--color-secondary);
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    color: var(--color-accent);
+}

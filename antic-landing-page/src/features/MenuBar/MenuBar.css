@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.header img {
+  padding: 0 4px;
+  margin-right: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.navbar ul,
+.navbar li {
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+}
+
+.navbar ul {
+  margin-top: 10px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.navbar li {
+  line-height: 1;
+}

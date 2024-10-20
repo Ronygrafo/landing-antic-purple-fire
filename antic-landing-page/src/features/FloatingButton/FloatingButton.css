@@ -1,0 +1,6 @@
+.contact-button{
+    position: fixed;
+    top: 2.2rem;
+    right: 3rem;
+    z-index: 1;
+}
