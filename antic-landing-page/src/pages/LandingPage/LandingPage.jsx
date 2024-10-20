@@ -1,4 +1,6 @@
 import IconButton from "../../components/iconButton/iconButton";
+import FloatingButton from "../../features/FloatingButton/FloatingButton";
+import HeroSection from "../../features/HeroSection/HeroSection";
 import MenuBar from "../../features/MenuBar/MenuBar";
 import "./LandingPage.css";
 
@@ -10,7 +12,10 @@ const LandingPage = () => {
 
   return (
     <>
-    <MenuBar/>
+      <MenuBar />
+      <FloatingButton />
+      <HeroSection />
+
       <IconButton
         iconName="keyboard_arrow_down"
         variant="primary"
@@ -25,7 +30,7 @@ const LandingPage = () => {
         iconFill="true"
         onClick={handleClick}
       />
-            <IconButton
+      <IconButton
         iconName="chevron_left"
         variant="primary"
         size="small"
