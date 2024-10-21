@@ -8,7 +8,7 @@ const ImageCarousel = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 6,
       slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
@@ -59,8 +59,10 @@ const ImageCarousel = () => {
           arrows={false}
           responsive={responsive}
           infinite={true}
-          autoPlaySpeed={1000}
+          autoPlay={true}
+          autoPlaySpeed={1500}
           keyBoardControl={false}
+          centerMode={false}
           transitionDuration={600}
           containerClass="carousel-container"
           renderButtonGroupOutside={true}

@@ -47,7 +47,7 @@ input {
   --color-grey-dark-50: #1212128a;
   --color-grey-dark-30: #1212123b;
   
-  --spacing-small: 0.5rem;
+  --spacing-small: 0.8em;
   --spacing-medium: 1rem;
   --spacing-large: 2rem;
 }
@@ -127,4 +127,11 @@ input {
 .full-width-section {
   width: 100%;
   padding: 0 7rem;
+}
+
+@media only screen and (max-width:464px) {
+  .full-width-section {
+    width: 100%;
+    padding: 0 var(--spacing-small);
+  }
 }

@@ -32,3 +32,13 @@
     font-size: 18px;
     flex: 50%;
 }
+
+@media only screen and (max-width:464px) {
+    .carousel-content {
+      flex-direction: column;
+      padding-left: var(--spacing-small);
+  }
+  .carousel-button-group {
+    display: none
+}
+  }
