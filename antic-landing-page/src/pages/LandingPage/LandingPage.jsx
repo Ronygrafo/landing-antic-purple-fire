@@ -1,22 +1,26 @@
-import IconButton from "../../components/iconButton/iconButton";
+//import IconButton from "../../components/iconButton/iconButton";
 import FloatingButton from "../../features/FloatingButton/FloatingButton";
+import Footer from "../../features/Footer/Footer";
 import HeroSection from "../../features/HeroSection/HeroSection";
 import MenuBar from "../../features/MenuBar/MenuBar";
+import { MulticolumnSection } from "../../features/MulticolumnSection/MulticolumnSection";
 import "./LandingPage.css";
 
 const LandingPage = () => {
-  const handleClick = (e) => {
+
+/*   const handleClick = (e) => {
     e.preventDefault();
     console.log("Btn Clicked");
-  };
+  }; */
 
   return (
     <>
       <MenuBar />
       <FloatingButton />
       <HeroSection />
+      <MulticolumnSection/>
 
-      <IconButton
+ {/*      <IconButton
         iconName="keyboard_arrow_down"
         variant="primary"
         size="base"
@@ -38,12 +42,13 @@ const LandingPage = () => {
         onClick={handleClick}
       />
       <IconButton
-        iconName="chevron_right"
+        iconName="chevron_right"x
         variant="primary"
         size="small"
         iconFill="false"
         onClick={handleClick}
-      />
+      /> */}
+      <Footer/>
     </>
   );
 };
