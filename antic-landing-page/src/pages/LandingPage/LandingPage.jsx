@@ -1,4 +1,5 @@
 //import IconButton from "../../components/iconButton/iconButton";
+import ImageCarousel from "../../features/Carousel/ImageCarousel";
 import FloatingButton from "../../features/FloatingButton/FloatingButton";
 import Footer from "../../features/Footer/Footer";
 import HeroSection from "../../features/HeroSection/HeroSection";
@@ -21,6 +22,7 @@ const LandingPage = () => {
       <HeroSection />
       <MulticolumnSection/>
       <SuscriptionCTA/>
+      <ImageCarousel/>
 
  {/*      <IconButton
         iconName="keyboard_arrow_down"
