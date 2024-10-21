@@ -69,13 +69,32 @@
     outline: none;
 }
 
-@media only screen and (max-width:464px) {
+@media only screen and (max-width:768px) {
     .subscription-container {
-      flex-direction: column;
-      padding: 1rem 0;
-      gap: 1rem;
-  }
-  .subscription-title{
-    font-size: 2rem;
-  }
-  }
+        flex-direction: column;
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+
+    .subscription-title {
+        font-size: 2rem;
+    }
+
+    .subscription-content {
+        flex: 100%;
+        padding-right: 0;
+    }
+
+    .subscription-form {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+    .subscription-input {
+        margin-right: 0;
+    }
+
+    .subscription-button {
+        width: 100%;
+    }
+}

@@ -33,12 +33,21 @@
     flex: 50%;
 }
 
-@media only screen and (max-width:464px) {
+@media only screen and (max-width:768px) {
     .carousel-content {
-      flex-direction: column;
-      padding-left: var(--spacing-small);
-  }
-  .carousel-button-group {
-    display: none
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 100%;
+        padding-left: var(--spacing-medium);
+        padding-bottom: var(--spacing-large);
+    }
+
+    .carousel-button-group {
+        display: none
+    }
+
+    .carousel-container {
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
 }
-  }

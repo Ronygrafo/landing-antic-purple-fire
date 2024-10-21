@@ -38,9 +38,23 @@
 .navbar li {
   line-height: 1;
 }
+.navbar-mobile{
+  display: none;
+}
 
-@media only screen and (max-width:464px) {
-  .navbar {
+@media only screen and (max-width:768px) {
+  .navbar, .logo-header {
     display: none;
   }
+
+  .navbar-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-mobile span{
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
 }

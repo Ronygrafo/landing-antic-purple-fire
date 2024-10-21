@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h3 className="footer-subtitle varta-bold">Products</h3>
+            <h3 className="footer-subtitle varta-heavy">Products</h3>
             <ul className="footer-list varta-regular">
               {[
                 "Furniture",
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h3 className="footer-subtitle varta-bold">Rooms</h3>
+            <h3 className="footer-subtitle varta-heavy">Rooms</h3>
             <ul className="footer-list varta-regular">
               {[
                 "Living room",
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h3 className="footer-subtitle varta-bold">Services</h3>
+            <h3 className="footer-subtitle varta-heavy">Services</h3>
             <ul className="footer-list varta-regular">
               {[
                 "Click and collect",
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h3 className="footer-subtitle varta-bold">About</h3>
+            <h3 className="footer-subtitle varta-heavy">About</h3>
             <ul className="footer-list varta-regular">
               {["Our story", "Our stores", "Our partners"].map(
                 (item, index) => (
@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column footer-planet">
-            <h3 className="footer-subtitle varta-bold">
+            <h3 className="footer-subtitle varta-heavy">
               We respect our planet
             </h3>
             <div className="footer-img-container">
