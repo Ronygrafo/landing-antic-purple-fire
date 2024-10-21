@@ -80,6 +80,14 @@ const ImageCarousel = () => {
           ))}
         </Carousel>
       </div>
+      <div className="carousel-content">
+        <h2 className="carousel-title merriweather-light">
+          Inspirations
+        </h2>
+        <p className="carousel-text varta-regular">
+        Our experts are keen to stay on top of trends in order to offer you new inspirations for your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and we want to share that with you.
+        </p>
+      </div>
     </section>
   );
 };
