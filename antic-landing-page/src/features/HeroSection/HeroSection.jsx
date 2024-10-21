@@ -18,13 +18,24 @@ const HeroSection = () => {
           <p className="varta-regular">
             We provide everyone with modern, trendy, quality furniture
           </p>
-          <IconButton
-            iconName="keyboard_arrow_down"
-            variant="primary"
-            size="base"
-            iconFill="false"
-            onClick={handleClick}
-          />
+          <div className="hero-button">
+            <IconButton
+              iconName="keyboard_arrow_down"
+              variant="primary"
+              size="base"
+              iconFill="false"
+              onClick={handleClick}
+            />
+          </div>
+          <div className="mobile-hero-button">
+            <IconButton
+              iconName="keyboard_arrow_down"
+              variant="secondary"
+              size="base"
+              iconFill="false"
+              onClick={handleClick}
+            />
+          </div>
         </div>
       </div>
       <div className="hero-image">

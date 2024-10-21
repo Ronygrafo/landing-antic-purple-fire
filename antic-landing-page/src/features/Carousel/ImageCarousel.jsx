@@ -60,10 +60,10 @@ const ImageCarousel = () => {
           responsive={responsive}
           infinite={true}
           autoPlay={true}
-          autoPlaySpeed={1500}
+          autoPlaySpeed={700}
           keyBoardControl={false}
           centerMode={false}
-          transitionDuration={600}
+          transitionDuration={700}
           containerClass="carousel-container"
           renderButtonGroupOutside={true}
           customButtonGroup={<ButtonGroup />}
