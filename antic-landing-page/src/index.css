@@ -44,6 +44,8 @@ input {
   --color-accent: #d2b48c;
   --color-white: #ffffff;
   --color-grey-dark: #121212;
+  --color-grey-dark-50: #1212128a;
+  --color-grey-dark-30: #1212123b;
   
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
