@@ -4,6 +4,7 @@
 
 .footer-container {
   width: 100%;
+  margin-top: 4rem;
 }
 
 .footer-content {
@@ -78,6 +79,6 @@
 }
 
 .footer-link{
-  margin: 0 0.4rem;
+  margin: 0.4rem 0;
   color: var(--color-secondary);
 }

@@ -20,12 +20,30 @@ p {
   font-weight: 400;
 }
 
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  border: 1px solid;
+  outline: none;
+  box-shadow: none;
+
+  padding: 0.8em;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 :root {
   --color-primary: #A06056;
   --color-secondary: #706458;
   --color-background: #F3EEE8;
   --color-accent: #d2b48c;
   --color-white: #ffffff;
+  --color-grey-dark: #121212;
   
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
@@ -106,5 +124,5 @@ p {
 
 .full-width-section {
   width: 100%;
-  padding: 0 6rem;
+  padding: 0 7rem;
 }

@@ -4,6 +4,7 @@ import Footer from "../../features/Footer/Footer";
 import HeroSection from "../../features/HeroSection/HeroSection";
 import MenuBar from "../../features/MenuBar/MenuBar";
 import { MulticolumnSection } from "../../features/MulticolumnSection/MulticolumnSection";
+import SuscriptionCTA from "../../features/SuscriptionCTA/SuscriptionCTA";
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -19,6 +20,7 @@ const LandingPage = () => {
       <FloatingButton />
       <HeroSection />
       <MulticolumnSection/>
+      <SuscriptionCTA/>
 
  {/*      <IconButton
         iconName="keyboard_arrow_down"
