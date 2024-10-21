@@ -23,35 +23,6 @@ const LandingPage = () => {
       <MulticolumnSection/>
       <SuscriptionCTA/>
       <ImageCarousel/>
-
- {/*      <IconButton
-        iconName="keyboard_arrow_down"
-        variant="primary"
-        size="base"
-        iconFill="false"
-        onClick={handleClick}
-      />
-      <IconButton
-        iconName="forum"
-        variant="secondary"
-        size="base"
-        iconFill="true"
-        onClick={handleClick}
-      />
-      <IconButton
-        iconName="chevron_left"
-        variant="primary"
-        size="small"
-        iconFill="false"
-        onClick={handleClick}
-      />
-      <IconButton
-        iconName="chevron_right"x
-        variant="primary"
-        size="small"
-        iconFill="false"
-        onClick={handleClick}
-      /> */}
       <Footer/>
     </>
   );

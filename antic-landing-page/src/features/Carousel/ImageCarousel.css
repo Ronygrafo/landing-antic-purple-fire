@@ -1,3 +1,22 @@
 .carousel-section{
     background-color: var(--color-white);
 }
+
+.carousel-container{
+    padding: 3rem 0;
+}
+
+.carousel-button-group{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 10rem;
+}
+
+.carousel-container ul{
+    display: flex;
+    gap: 20px;
+}
+.carousel-container li{
+    width: 250px !important;
+}
