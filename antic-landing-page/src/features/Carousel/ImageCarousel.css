@@ -3,16 +3,16 @@
 }
 
 .carousel-container {
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .carousel-content {
     display: flex;
     color: var(--color-secondary);
     max-width: 60vw;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding-left: 7rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 .carousel-button-group {
@@ -20,7 +20,7 @@
     gap: 1rem;
     position: absolute;
     right: 10rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .carousel-title {

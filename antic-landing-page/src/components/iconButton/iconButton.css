@@ -29,7 +29,8 @@
 }
 
 .button--secondary:hover {
-    background-color: var(--color-accent);
+    filter: drop-shadow(0px 2px 3px transparent);
+    background-color: var(--color-grey-dark-30);
 }
 
 .button--base {

@@ -21,7 +21,7 @@ const SuscriptionCTA = () => {
         <div className="subscription-content">
           <h2 className="subscription-title merriweather-light">Be aware of the latest trends</h2>
           <p className="subscription-description varta-regular">Stay informed of new trends, but also of our various offers.</p>
-          <span className="footer-link varta-heavy">Learn more</span>
+          <span className="footer-links varta-heavy">Learn more</span>
         </div>
         <form className="subscription-form" onSubmit={handleSubmit}>
           <input

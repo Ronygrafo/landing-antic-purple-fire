@@ -4,7 +4,7 @@ import "./FloatingButton.css";
 const FloatingButton = () => {
   const handleContact = (e) => {
     e.preventDefault();
-    console.log("Contact Clicked");
+    console.log("Floatiing message clicked");
   };
 
   return (

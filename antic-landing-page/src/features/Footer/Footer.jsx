@@ -99,7 +99,7 @@ const Footer = () => {
               We are taking positive steps to reduce our impact on the planet.
               For us, that means retailing responsibly.
             </p>
-            <span className="footer-link varta-heavy">Learn more</span>
+            <span className="footer-links varta-heavy">Learn more</span>
           </div>
         </div>
 
@@ -150,9 +150,9 @@ const Footer = () => {
               for PurpleFire Frontend Developer Challenge
             </p>
             <div className="footer-links">
-              <span className="footer-link varta-bold">Privacy policy</span>
-              <span className="footer-link varta-bold">Term of service</span>
-              <span className="footer-link varta-bold">Language</span>
+              <span className="varta-bold">Privacy policy</span>
+              <span className="varta-bold">Term of service</span>
+              <span className="varta-bold">Language</span>
             </div>
           </div>
         </div>

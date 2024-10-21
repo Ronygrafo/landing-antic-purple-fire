@@ -8,13 +8,13 @@ const ImageCarousel = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 6,
+      items: 5,
       slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2, // optional, default to 1.
+      items: 3,
+      slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -42,7 +42,9 @@ const ImageCarousel = () => {
           iconName="chevron_right"
           variant="primary"
           size="small"
-          iconFill="false" onClick={() => next()} />
+          iconFill="false"
+          onClick={() => next()}
+        />
       </div>
     );
   };
@@ -81,11 +83,12 @@ const ImageCarousel = () => {
         </Carousel>
       </div>
       <div className="carousel-content">
-        <h2 className="carousel-title merriweather-light">
-          Inspirations
-        </h2>
+        <h2 className="carousel-title merriweather-light">Inspirations</h2>
         <p className="carousel-text varta-regular">
-        Our experts are keen to stay on top of trends in order to offer you new inspirations for your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and we want to share that with you.
+          Our experts are keen to stay on top of trends in order to offer you
+          new inspirations for your interior and exterior every day. Remember
+          that to inspire you we have to inspire ourselves and we want to share
+          that with you.
         </p>
       </div>
     </section>
