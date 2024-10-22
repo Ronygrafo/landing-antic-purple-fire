@@ -1,8 +1,13 @@
+import { forwardRef } from "react";
 import "./MulticolumnSection.css";
 
-export const MulticolumnSection = () => {
+const MulticolumnSection = forwardRef((props, ref) => {
   return (
-    <section className="multicolumn-section full-width-section">
+    <section
+      ref={ref}
+      {...props}
+      className="multicolumn-section full-width-section"
+    >
       <div className="multicolumn-container">
         <div className="main-content">
           <h2 className="main-title merriweather-regular">
@@ -48,4 +53,8 @@ export const MulticolumnSection = () => {
       </div>
     </section>
   );
-};
+});
+
+MulticolumnSection.displayName = "MulticolumnSection";
+
+export default MulticolumnSection;

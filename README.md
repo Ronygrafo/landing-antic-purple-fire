@@ -104,10 +104,10 @@ Combined with the Material Symbols librarie to use any icon
 import IconButton from "/components/iconButton/iconButton";
 
 // Usage for Primary variant with Large size
-<IconButton iconName="{Icon name}" variant="primary" size="large" iconFill="false"/>.
+<IconButton iconName="{Icon name}" variant="primary" size="large" iconfill="false"/>.
 
 // Usage for Secondary variant with Small size
-<IconButton iconName="Icon name" variant="secondary" size="small" iconFill="true"/>.
+<IconButton iconName="Icon name" variant="secondary" size="small" iconfill="true"/>.
 
 ```
 

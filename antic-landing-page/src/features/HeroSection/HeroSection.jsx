@@ -1,12 +1,7 @@
 import IconButton from "../../components/iconButton/iconButton";
 import "./HeroSection.css";
 
-const HeroSection = () => {
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log("Btn Clicked");
-  };
-
+const HeroSection = ({ onScroll }) => {
   return (
     <section className="hero">
       <div className="hero-content">
@@ -23,8 +18,8 @@ const HeroSection = () => {
               iconName="keyboard_arrow_down"
               variant="primary"
               size="base"
-              iconFill="false"
-              onClick={handleClick}
+              iconfill="false"
+              onClick={onScroll}
             />
           </div>
           <div className="mobile-hero-button">
@@ -32,8 +27,8 @@ const HeroSection = () => {
               iconName="keyboard_arrow_down"
               variant="secondary"
               size="base"
-              iconFill="false"
-              onClick={handleClick}
+              iconfill="false"
+              onClick={onScroll}
             />
           </div>
         </div>

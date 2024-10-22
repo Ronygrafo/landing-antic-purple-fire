@@ -5,7 +5,7 @@ const IconButton = ({
   iconName,
   variant = "",
   size = "",
-  iconFill = "false",
+  iconfill = "false",
   onClick,
 }) => {
   const getIconColor = () => {
@@ -31,8 +31,8 @@ const IconButton = ({
     color: getIconColor(),
   };
 
-  if (iconFill === "true") {
-    materialSymbolProps.iconFill = true;
+  if (iconfill === "true") {
+    materialSymbolProps.iconfill = true;
   }
 
   return (

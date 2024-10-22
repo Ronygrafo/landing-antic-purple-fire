@@ -13,7 +13,7 @@ const FloatingButton = () => {
         iconName="forum"
         variant="secondary"
         size="base"
-        iconFill="true"
+        iconfill="true"
         onClick={handleContact}
       />
     </div>

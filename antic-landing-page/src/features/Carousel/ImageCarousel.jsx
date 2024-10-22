@@ -34,7 +34,7 @@ const ImageCarousel = () => {
           iconName="chevron_left"
           variant="primary"
           size="small"
-          iconFill="false"
+          iconfill="false"
           className={currentSlide === 0 ? "disable" : ""}
           onClick={() => previous()}
         />
@@ -42,7 +42,7 @@ const ImageCarousel = () => {
           iconName="chevron_right"
           variant="primary"
           size="small"
-          iconFill="false"
+          iconfill="false"
           onClick={() => next()}
         />
       </div>
