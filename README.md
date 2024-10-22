@@ -1,8 +1,9 @@
 # Antic - Luxury Landing Page
 
-<!-- Paste screenshots -->
+![Landing-Page-Banner](https://github.com/user-attachments/assets/4a3df37a-df8f-4914-8389-26a93996b435)
 
-# 📋 Table of Contents
+
+## 📋 Table of Contents
 
 1. [Overview](#️-overview)
 2. [Live Demo](#-live-demo)
@@ -52,7 +53,8 @@ A luxury-styled landing page focused on interior and exterior lighting e-commerc
 ## 🏗️ Architecture
 The project follows a sensible folder structure:
 
-<!-- Paste screenshots -->
+![landing-tree](https://github.com/user-attachments/assets/a30fcb4c-be70-451e-a51c-3787cb306818)
+
 
 ### Project Structure Explanation:
 
@@ -90,7 +92,6 @@ Implemented Features
 ## Responsive Breakpoints
 - ### 📱 mobile: '320px - 768px',
 - ### 💻 desktop: '1025px and above'
-<!-- Paste screenshots -->
 
 
 ## 💡 Development Decisions
@@ -117,8 +118,6 @@ The project implements plain CSS on global styles in index.css with:
 - Custom color palette using CSS variables
 - Imported typography with custom font classes
 - BEM methodology for styling structure
-
-<!-- Paste screenshots -->
 
 
 ## 🙏 Acknowledgments:
