@@ -2,9 +2,10 @@ import IconButton from "../../components/iconButton/iconButton";
 import "./FloatingButton.css";
 
 const FloatingButton = () => {
-  const handleContact = (e) => {
-    e.preventDefault();
-    console.log("Floatiing message clicked");
+  const href = "https://wa.me/573104051410?text=Hi%20Rony!,%20You're%20Hired!";
+
+  const handleContact = () => {
+    window.open(href, '_blank', 'noopener,noreferrer');
   };
 
   return (
