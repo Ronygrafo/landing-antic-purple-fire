@@ -2,8 +2,31 @@
 
 <!-- Paste screenshots -->
 
+# 📋 Table of Contents
+
+1. [Overview](#️-overview)
+2. [Live Demo](#-live-demo)
+3. [Technologies Used](#-technologies-used)
+  - [Core Technologies](#core-technologies)
+  - [Build Tools](#build-tools)
+  - [UI Components & Features](#ui-components--features)
+  - [Code Quality & Linting](#code-quality--linting)
+4. [Architecture](#️-architecture)
+  - [Project Structure](#project-structure-explanation)
+  - [Directory Organization](#directory-organization)
+    - [Components](#-components)
+    - [Features](#-features)
+    - [Pages](#-pages)
+    - [Root Level](#️-root-level)
+5. [Features](#-features)
+6. [Responsive Breakpoints](#--responsive-breakpoints)
+7. [Development Decisions](#-development-decisions)
+8. [Styling Approach](#️-styling-approach)
+9. [Acknowledgments](#-acknowledgments)
+
 ## 🛋️ Overview
 A luxury-styled landing page focused on interior and exterior lighting e-commerce. The design features sophisticated elements that enhance brand value and lead users to discover more about the products.
+
 
 ## 🚀 Live Demo
 - [View Live Site](https://landing-antic-purple-fire.vercel.app)
@@ -23,7 +46,8 @@ A luxury-styled landing page focused on interior and exterior lighting e-commerc
 - React Multi Carousel 2.8.5
 
 ### Code Quality & Linting
-- ESLint v9.11.1
+- ESLint 9.11.1
+
 
 ## 🏗️ Architecture
 The project follows a sensible folder structure:
@@ -63,9 +87,10 @@ Implemented Features
 - ✅ Newsletter subscription
 - ✅ Animated page transitions
 
-## 💻 📱 Responsive Breakpoints
-- ### mobile: '320px - 768px',
-- ### desktop: '1025px and above'
+## Responsive Breakpoints
+- ### 📱 mobile: '320px - 768px',
+- ### 💻 desktop: '1025px and above'
+<!-- Paste screenshots -->
 
 
 ## 💡 Development Decisions
@@ -93,7 +118,10 @@ The project implements plain CSS on global styles in index.css with:
 - Imported typography with custom font classes
 - BEM methodology for styling structure
 
-# 🙏 Acknowledgments:
+<!-- Paste screenshots -->
+
+
+## 🙏 Acknowledgments:
 
 - Icons provided by [Material Symbols](https://fonts.google.com/icons)
 - Image Carousel [react-multi-carousel](https://www.npmjs.com/package/react-multi-carousel)
