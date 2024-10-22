@@ -61,9 +61,11 @@ const ImageCarousel = () => {
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={700}
+          shouldResetAutoplay={true}
           keyBoardControl={false}
           centerMode={false}
           transitionDuration={700}
+          rewindWithAnimation={true}
           containerClass="carousel-container"
           renderButtonGroupOutside={true}
           customButtonGroup={<ButtonGroup />}
