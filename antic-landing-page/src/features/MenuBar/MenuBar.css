@@ -38,21 +38,25 @@
 .navbar li {
   line-height: 1;
 }
-.navbar-mobile{
+
+.navbar-mobile {
   display: none;
 }
 
 @media only screen and (max-width:768px) {
-  .navbar, .logo-header {
+
+  .navbar,
+  .logo-header {
     display: none;
   }
 
-  .navbar-mobile{
+  .navbar-mobile {
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
-  .navbar-mobile span{
+
+  .navbar-mobile span {
     margin-right: 1rem;
     cursor: pointer;
   }

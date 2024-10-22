@@ -1,12 +1,12 @@
-.contact-button{
-    position: fixed;
-    top: 2.2rem;
-    right: 3rem;
-    z-index: 1;
+.contact-button {
+  position: fixed;
+  top: 2.2rem;
+  right: 3rem;
+  z-index: 1;
 }
 
 @media only screen and (max-width:768px) {
-    .contact-button {
-      display: none;
-    }
+  .contact-button {
+    display: none;
   }
+}

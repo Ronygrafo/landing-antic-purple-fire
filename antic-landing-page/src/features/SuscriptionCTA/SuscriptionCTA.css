@@ -90,6 +90,7 @@
         flex-direction: column;
         gap: 0.4rem;
     }
+
     .subscription-input {
         margin-right: 0;
     }

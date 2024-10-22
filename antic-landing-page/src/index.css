@@ -8,7 +8,12 @@
   scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   text-wrap: balance;
   margin: 0;
@@ -46,7 +51,7 @@ input {
   --color-grey-dark: #121212;
   --color-grey-dark-50: #1212128a;
   --color-grey-dark-30: #1212123b;
-  
+
   --spacing-small: 0.8em;
   --spacing-medium: 1rem;
   --spacing-large: 2rem;
@@ -111,12 +116,14 @@ input {
   font-weight: 300;
   font-style: normal;
 }
+
 .varta-bold {
   font-family: "Varta", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
+
 .varta-heavy {
   font-family: "Varta", sans-serif;
   font-optical-sizing: auto;

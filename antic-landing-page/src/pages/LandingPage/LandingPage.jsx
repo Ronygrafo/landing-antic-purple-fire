@@ -9,8 +9,7 @@ import SuscriptionCTA from "../../features/SuscriptionCTA/SuscriptionCTA";
 import "./LandingPage.css";
 
 const LandingPage = () => {
-
-/*   const handleClick = (e) => {
+  /*   const handleClick = (e) => {
     e.preventDefault();
     console.log("Btn Clicked");
   }; */
@@ -20,10 +19,10 @@ const LandingPage = () => {
       <MenuBar />
       <FloatingButton />
       <HeroSection />
-      <MulticolumnSection/>
-      <SuscriptionCTA/>
-      <ImageCarousel/>
-      <Footer/>
+      <MulticolumnSection />
+      <SuscriptionCTA />
+      <ImageCarousel />
+      <Footer />
     </>
   );
 };
